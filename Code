@@ -324,7 +324,6 @@ perf_3 <- performance(perf_3, "tpr", "fpr")
 perf_4 <- prediction(pred_4, test_4$TALE_1yr)
 perf_4 <- performance(perf_4, "tpr", "fpr")
 
-
 plot(perf_1)
 plot(perf_2, add = TRUE, col = 'blue')
 plot(perf_3, add = TRUE, col = 'orange')
